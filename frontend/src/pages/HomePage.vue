@@ -115,10 +115,10 @@ const weeklySchedule = computed(() => {
 </script>
 
 <template>
+    <h2 class="text-lg font-semibold">Total Weeks: {{ totalWeeks }}</h2>
     <div v-for="(week, weekIndex) in weeklySchedule" :key="weekIndex" class="mb-8">
         <div class="mb-4 justify-between flex items-center">
             <h3 class="text-lg font-semibold">Week {{ weekIndex + 1 }}</h3>
-            <h2 class="text-lg font-semibold">Total Weeks: {{ totalWeeks }}</h2>
         </div>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">

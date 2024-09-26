@@ -1,0 +1,50 @@
+{
+    "status": "success",
+    "data": {
+      "id": 22,
+      "title": "Business Task 22",
+      "time": 9,
+      "level": 5
+    },
+    "relations": {
+      "developers": {
+        "data": [
+          {
+            "id": 1,
+            "name": "Developer 1",
+            "time": 1,
+            "level": 1,
+            "result": "x gün, x sa, x dakika"
+          },
+          {
+            "id": 2,
+            "name": "Developer 2",
+            "time": 2,
+            "level": 2,
+            "result": "x gün, x sa, x dakika"
+          },
+          {
+            "id": 3,
+            "name": "Developer 3",
+            "time": 3,
+            "level": 3,
+            "result": "x gün, x sa, x dakika"
+          },
+          {
+            "id": 4,
+            "name": "Developer 4",
+            "time": 4,
+            "level": 4,
+            "result": "x gün, x sa, x dakika"
+          },
+          {
+            "id": 5,
+            "name": "Developer 5",
+            "time": 5,
+            "level": 5,
+            "result": "x gün, x sa, x dakika"
+          }
+        ]
+      }
+    }
+  }

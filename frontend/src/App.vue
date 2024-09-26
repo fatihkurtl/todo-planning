@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavbarLayout from './layouts/NavbarLayout.vue'
-// import FooterLayout from './layouts/FooterLayout.vue'
 
 
 </script>
@@ -13,7 +12,6 @@ import NavbarLayout from './layouts/NavbarLayout.vue'
       <RouterView />
     </div>
   </main>
-  <!-- <FooterLayout /> -->
 </template>
 
 <style scoped></style>
